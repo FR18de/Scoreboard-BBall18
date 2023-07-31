@@ -86,6 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function period1(){
         currentPeriod = 1;
         totalTimeInSeconds = 600;
+        time.innerHTML = "10:00";
         updatePeriodDisplay();
         updateTimerDisplay(totalTimeInSeconds);
     };
@@ -93,6 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function period2(){
         currentPeriod = 2;
         totalTimeInSeconds = 600;
+        time.innerHTML = "10:00";
         updatePeriodDisplay();
         updateTimerDisplay(totalTimeInSeconds);
     };
@@ -100,13 +102,15 @@ document.addEventListener("DOMContentLoaded", function () {
     function period3(){
         currentPeriod = 3;
         totalTimeInSeconds = 600;
+        time.innerHTML = "10:00";
         updatePeriodDisplay();
         updateTimerDisplay(totalTimeInSeconds);
     };
 
     function period4(){
         currentPeriod = 4;
-        totalTimeInSeconds = 600;
+        totalTimeInSeconds = 6;
+        time.innerHTML = "10:00";
         updatePeriodDisplay();
         updateTimerDisplay(totalTimeInSeconds);
     };
@@ -114,6 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function periodOvertime(){
         currentPeriod++;
         totalTimeInSeconds = 300;
+        time.innerHTML = "5:00";
         updatePeriodDisplay();
         updateTimerDisplay(totalTimeInSeconds);
     };

@@ -1,0 +1,107 @@
+html, body{ 
+    height: 1444px;
+    width: 1444px;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    .scorebug {
+      display: flex;
+      background: #000;
+      color: #fff;
+      font-size: 24px;
+      padding: 10px;
+      border-radius: 10px;
+      align-items: center;
+      margin: 10px auto;
+      width: 40%;
+      justify-content: space-between;
+      align-content: center;
+    }
+    
+    .score-fouls {
+      display: flex;
+      padding: 5px 15px;
+      margin-left: 5%;
+      background: darkgrey;
+      border-radius: 10px;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+    }
+    
+    .fouls {
+      font-size: 25px;
+      color: #ffe100;
+      margin: 0 5px;
+      align-content: center;
+    }
+    
+    .score {
+      font-size: 30px;
+      margin: 0 5px;
+      align-content: center;
+    }
+    
+    
+    .home-info {
+      padding-right: 5.5%;
+    }
+    
+    .away-info {
+      padding-left: 5.5%;
+    }
+    
+    .time-box {
+      background: #000;
+      color: #fff;
+      font-size: 30px;
+    
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 0px auto;
+      width: 11%;
+      align-content: center;
+    }
+    
+    button {
+      padding: 10px 15px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    button:hover {
+      background-color: #555;
+    }
+    
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .buttons.score-home,
+    .buttons.away-score,
+    .buttons.time,
+    .buttons.period {
+      margin: 20px auto;
+      width: 80%;
+    }
+    
